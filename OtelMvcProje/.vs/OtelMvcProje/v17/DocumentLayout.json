@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|c:\\users\\yaren\\onedrive\\belgeler\\github\\\u0130tpf\u0130nalprojes\u0130\\otelmvcproje\\otelmvcproje\\views\\default\\hakkimda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|solutionrelative:otelmvcproje\\views\\default\\hakkimda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\otelmvcproje\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|solutionrelative:otelmvcproje\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\otelmvcproje\\controllers\\iletisimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|solutionrelative:otelmvcproje\\controllers\\iletisimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\otelmvcproje\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|solutionrelative:otelmvcproje\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\otelmvcproje\\controllers\\hizmetlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|solutionrelative:otelmvcproje\\controllers\\hizmetlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\otelmvcproje\\controllers\\anasayfacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE789A9B-9069-44F5-9D91-A5CF270598C6}|OtelMvcProje\\OtelMvcProje.csproj|solutionrelative:otelmvcproje\\controllers\\anasayfacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hakkimda.cshtml",
+              "DocumentMoniker": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Views\\Default\\Hakkimda.cshtml",
+              "RelativeDocumentMoniker": "OtelMvcProje\\Views\\Default\\Hakkimda.cshtml",
+              "ToolTip": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Views\\Default\\Hakkimda.cshtml",
+              "RelativeToolTip": "OtelMvcProje\\Views\\Default\\Hakkimda.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T12:31:29.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "iletisimController.cs",
+              "DocumentMoniker": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Controllers\\iletisimController.cs",
+              "RelativeDocumentMoniker": "OtelMvcProje\\Controllers\\iletisimController.cs",
+              "ToolTip": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Controllers\\iletisimController.cs",
+              "RelativeToolTip": "OtelMvcProje\\Controllers\\iletisimController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T12:26:53.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "OtelMvcProje\\Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "OtelMvcProje\\Controllers\\DefaultController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T12:26:48.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OtelMvcProje\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OtelMvcProje\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T12:26:47.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnaSayfaController.cs",
+              "DocumentMoniker": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Controllers\\AnaSayfaController.cs",
+              "RelativeDocumentMoniker": "OtelMvcProje\\Controllers\\AnaSayfaController.cs",
+              "ToolTip": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Controllers\\AnaSayfaController.cs",
+              "RelativeToolTip": "OtelMvcProje\\Controllers\\AnaSayfaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T11:54:59.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HizmetlerController.cs",
+              "DocumentMoniker": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Controllers\\HizmetlerController.cs",
+              "RelativeDocumentMoniker": "OtelMvcProje\\Controllers\\HizmetlerController.cs",
+              "ToolTip": "C:\\Users\\yaren\\OneDrive\\Belgeler\\GitHub\\\u0130TPF\u0130NALPROJES\u0130\\OtelMvcProje\\OtelMvcProje\\Controllers\\HizmetlerController.cs",
+              "RelativeToolTip": "OtelMvcProje\\Controllers\\HizmetlerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T11:54:56.917Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

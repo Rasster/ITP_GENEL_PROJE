@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbOtelYeniModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TblBirim">
+    <Key>
+      <PropertyRef Name="BirimID" />
+    </Key>
+    <Property Name="BirimID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BirimAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="int" />
+  </EntityType>
+  <EntityType Name="TblDurum">
+    <Key>
+      <PropertyRef Name="DurumID" />
+    </Key>
+    <Property Name="DurumID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DurumAd" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TblEkibimiz">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Unvan" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gorsel" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="TblHakkimda">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Hakkimda1" Type="nvarchar" MaxLength="200" />
+    <Property Name="Hakkimda2" Type="nvarchar" MaxLength="200" />
+    <Property Name="Hakkimda3" Type="nvarchar" MaxLength="200" />
+    <Property Name="Hakkimda4" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Tbliletisim">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="300" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="20" />
+    <Property Name="Koordinat" Type="nvarchar" MaxLength="500" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="TblMesaj">
+    <Key>
+      <PropertyRef Name="MesajID" />
+    </Key>
+    <Property Name="MesajID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Gonderen" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Konu" Type="nvarchar" MaxLength="100" />
+    <Property Name="Mesaj" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="TblMesaj2">
+    <Key>
+      <PropertyRef Name="MesajID" />
+    </Key>
+    <Property Name="MesajID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Gonderen" Type="nvarchar" MaxLength="50" />
+    <Property Name="Alici" Type="nvarchar" MaxLength="50" />
+    <Property Name="Konu" Type="nvarchar" MaxLength="100" />
+    <Property Name="Mesaj" Type="nvarchar(max)" />
+    <Property Name="Tarih" Type="datetime" />
+  </EntityType>
+  <EntityType Name="TblMisafir">
+    <Key>
+      <PropertyRef Name="MisafirID" />
+    </Key>
+    <Property Name="MisafirID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TC" Type="char" MaxLength="11" Nullable="false" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="300" />
+    <Property Name="KimlikFoto1" Type="nvarchar" MaxLength="100" />
+    <Property Name="KimlikFoto2" Type="nvarchar" MaxLength="100" />
+    <Property Name="Ulke" Type="int" Nullable="false" />
+    <Property Name="Durum" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TblOda">
+    <Key>
+      <PropertyRef Name="OdaID" />
+    </Key>
+    <Property Name="OdaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OdaNo" Type="char" MaxLength="3" />
+    <Property Name="Kat" Type="varchar" MaxLength="2" />
+    <Property Name="Kapasite" Type="char" MaxLength="1" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="200" />
+    <Property Name="Telefon" Type="char" MaxLength="4" />
+    <Property Name="Durum" Type="int" />
+  </EntityType>
+  <EntityType Name="TblOnRezervasyon">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="GirisTarih" Type="datetime" />
+    <Property Name="CikisTarih" Type="datetime" />
+    <Property Name="Kisi" Type="int" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="20" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="250" />
+    <Property Name="Tarih" Type="datetime" />
+  </EntityType>
+  <EntityType Name="TblRezevasyon">
+    <Key>
+      <PropertyRef Name="RezervasyonID" />
+    </Key>
+    <Property Name="RezervasyonID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Misafir" Type="int" />
+    <Property Name="GirisTarih" Type="datetime" />
+    <Property Name="CikisTarih" Type="datetime" />
+    <Property Name="Kisi" Type="int" />
+    <Property Name="Oda" Type="int" />
+    <Property Name="RezevasyonAdSoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="20" />
+    <Property Name="Aciklama" Type="nvarchar" MaxLength="250" />
+    <Property Name="Durum" Type="int" />
+    <Property Name="Kisi1" Type="int" />
+    <Property Name="Kisi2" Type="int" />
+    <Property Name="Kisi3" Type="int" />
+  </EntityType>
+  <EntityType Name="TblYeniKayit">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdSoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="20" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_TblBirim_TblDurum">
+    <End Role="TblDurum" Type="Self.TblDurum" Multiplicity="0..1" />
+    <End Role="TblBirim" Type="Self.TblBirim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblDurum">
+        <PropertyRef Name="DurumID" />
+      </Principal>
+      <Dependent Role="TblBirim">
+        <PropertyRef Name="Durum" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblMisafir_TblDurum">
+    <End Role="TblDurum" Type="Self.TblDurum" Multiplicity="1" />
+    <End Role="TblMisafir" Type="Self.TblMisafir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblDurum">
+        <PropertyRef Name="DurumID" />
+      </Principal>
+      <Dependent Role="TblMisafir">
+        <PropertyRef Name="Durum" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblOda_TblDurum">
+    <End Role="TblDurum" Type="Self.TblDurum" Multiplicity="0..1" />
+    <End Role="TblOda" Type="Self.TblOda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblDurum">
+        <PropertyRef Name="DurumID" />
+      </Principal>
+      <Dependent Role="TblOda">
+        <PropertyRef Name="Durum" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblOda_TblDurum1">
+    <End Role="TblDurum" Type="Self.TblDurum" Multiplicity="0..1" />
+    <End Role="TblOda" Type="Self.TblOda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblDurum">
+        <PropertyRef Name="DurumID" />
+      </Principal>
+      <Dependent Role="TblOda">
+        <PropertyRef Name="Durum" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbOtelYeniModelStoreContainer">
+    <EntitySet Name="TblBirim" EntityType="Self.TblBirim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblDurum" EntityType="Self.TblDurum" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblEkibimiz" EntityType="Self.TblEkibimiz" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblHakkimda" EntityType="Self.TblHakkimda" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbliletisim" EntityType="Self.Tbliletisim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblMesaj" EntityType="Self.TblMesaj" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblMesaj2" EntityType="Self.TblMesaj2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblMisafir" EntityType="Self.TblMisafir" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblOda" EntityType="Self.TblOda" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblOnRezervasyon" EntityType="Self.TblOnRezervasyon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblRezevasyon" EntityType="Self.TblRezevasyon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblYeniKayit" EntityType="Self.TblYeniKayit" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TblBirim_TblDurum" Association="Self.FK_TblBirim_TblDurum">
+      <End Role="TblDurum" EntitySet="TblDurum" />
+      <End Role="TblBirim" EntitySet="TblBirim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblMisafir_TblDurum" Association="Self.FK_TblMisafir_TblDurum">
+      <End Role="TblDurum" EntitySet="TblDurum" />
+      <End Role="TblMisafir" EntitySet="TblMisafir" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblOda_TblDurum" Association="Self.FK_TblOda_TblDurum">
+      <End Role="TblDurum" EntitySet="TblDurum" />
+      <End Role="TblOda" EntitySet="TblOda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblOda_TblDurum1" Association="Self.FK_TblOda_TblDurum1">
+      <End Role="TblDurum" EntitySet="TblDurum" />
+      <End Role="TblOda" EntitySet="TblOda" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
